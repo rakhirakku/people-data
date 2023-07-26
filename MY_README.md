@@ -1,6 +1,7 @@
 Clone the Repository:
 
 git clone https://github.com/rakhirakku/people-data.git
+
 cd people-data
 
 Environment Configuration:
