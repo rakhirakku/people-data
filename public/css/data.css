@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+  }
+  
+  .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #70baeb; /* Blue color background */
+    color: white;
+    margin: 20px;
+    padding: 150px;
+    padding-top:50px !important;
+    min-height: 100px!important;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-flex;
+    margin-right: 200px;
+
+  }
+  .header1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-flex;
+  }
+  .content {
+    display: inline-block;
+  }
+  
+  button {
+    background-color: #f39d52; /* Orange color button */
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .container1 {
+    display: flex;
+    height: auto; /* Set a fixed height for the container */
+    margin-bottom: 10px;
+    /* border: 1px solid #ccc; */
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    box-shadow: 0 4px 6px rgb(115 104 104);
+    border-radius: 20px 20px 20px 20px;
+  }
+
+  .first-column {
+    flex: 1; /* The first column takes the available space (1 line) */
+    background-color:#79d479;
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20px 0 0 20px;
+    height:40px;
+    font-size: 40px;
+  }
+  
+  .second-column {
+    text-align: left !important;
+
+    flex: 1; /* The second column also takes the same height (2 lines) */
+    /* background-color: #e67e22; */
+    /* color: white; */
+    /* padding: 10px; */
+    height: 40px;
+  }
+  
+  .row1 {
+    background-color:#c5e3f9;
+    color:black;
+    padding: 10px;
+    height: 20px;
+    border-radius: 0 20px 0 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .row2 {
+    background-color:white;
+    color:black;
+    padding: 10px;
+    height: 20px;
+    border-radius: 0 0 20px 0;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's color (or the browser default) */
+  }
